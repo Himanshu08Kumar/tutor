@@ -548,3 +548,95 @@ footer{
 .footer-2 ul li:hover{
   color: #ffc05a;
 }
+.contact-header{
+  /* background-image: url(./Images/header-background.jpg); */
+  position: relative;
+  background-color: #fc5d66;
+  height: 250px;
+  /* padding-bottom: 8rem; */
+}
+.contact-inner-head{
+ max-width: 1000px;
+ padding: 0 2rem;
+ margin: 0 auto;   
+}
+.contact-inner-head h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  /* padding-top: 8rem; */
+ /* text-align: left; */
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.contact-main{
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+.contact-main p{
+  margin-bottom: 3rem;
+}
+.contact-form{
+  margin-bottom: 4rem;
+}
+
+.contact-form input,.contact-form textarea{
+  width: 100%;
+  margin: 1.5rem 0;
+  padding: 1.2rem 1rem;
+  border: 1px solid #ccc;
+  font-size: medium;
+  font-family: inherit;
+}
+.contact-form textarea{
+  height: 200px;
+}
+.contact-form .btn{
+  padding: 1.3rem 2.3rem;
+  border: 1px solid #ffc05a;
+  border-radius: 32px;
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffc05a;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.contact-form .btn:hover{
+  background-color: #fc5d66;
+  color: #fff;
+}
+.contact-location{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.contact-location-1 h1{
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 700px;
+}
+.contact-location-1 p{
+  margin-bottom: 2rem;
+}
+.map{
+  width: 100%;
+  height: 100%;
+}
+.contact-location .map{
+  overflow: hidden;
+  position: relative;
+  height: 0;
+  margin-bottom: 3rem;
+  padding-bottom: 50%;
+  border-radius: 0.25rem;
+}
+.contact-location .map iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
