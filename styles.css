@@ -136,6 +136,10 @@ nav .logo{
 }
 .main-gallery-1 img {
   width: 100%;
+  transition: all 0.3s;
+}
+.main-gallery-1 img:hover{
+  scale: 1.1;
 }
 .main-Text-2 {
   margin: 0 auto;
@@ -671,7 +675,7 @@ footer{
   }
  .main-gallery-1{
   width: calc(31.3%);
-
+  
  }
  .takeaways{
   padding: 0 3rem;
